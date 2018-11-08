@@ -658,7 +658,7 @@ public class JdbcConfig {
 
 ![1525500697391](assets/1525500697391.png)
 
-我们看到，这里通过@EnableAutoConfiguration注解引入了两个属性：WebMvcProperties和ResourceProperties。这不正是SpringBoot的属性注入玩法嘛。
+我们看到，这里通过@EnableConfigurationProperties注解引入了两个属性：WebMvcProperties和ResourceProperties。这不正是SpringBoot的属性注入玩法嘛。
 
 我们查看这两个属性类：
 
